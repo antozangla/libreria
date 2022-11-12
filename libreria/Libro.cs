@@ -73,7 +73,33 @@ namespace libreria
             this.nPagine = nuovoNPagine;
         }
 
-        
+        public string toString()
+        {
+            string infoLibro = "";
+            infoLibro = "Il libro si chiama " + titolo + "\nL'autore è " + autore + "\nE' stato pubblicato nel " + annoPubblicazione + "\nL'editore è " + editore + "\nHa " + nPagine + " pagine";
+            return infoLibro;
+
+        }
+
+        public string readingTime()
+        {
+            if (nPagine < 100)
+            {
+                return "Tempo di lettura: 1h";
+            }
+            else if (nPagine >= 100 && nPagine < 200)
+            {
+                return "Tempo di lettura: 2h";
+            }
+            else if (nPagine >= 200)
+            {
+                return "Il tempo di lettura è superiore a 2h";
+            }
+            else
+            {
+                return "Errore";
+            }
+        }
 
     }
 }
