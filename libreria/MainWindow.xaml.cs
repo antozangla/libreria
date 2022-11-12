@@ -24,5 +24,17 @@ namespace libreria
         {
             InitializeComponent();
         }
+
+        private void btnAggiungiLibro_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void btnAggiungiBiblioteca_Click(object sender, RoutedEventArgs e)
+        {
+            Biblioteca biblioteca = new Biblioteca(txtNomeBiblioteca, txtIndirizzo, txtOrarioApertura, txtOrarioChiusura);
+
+
+        }
     }
 }
