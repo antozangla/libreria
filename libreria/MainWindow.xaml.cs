@@ -24,10 +24,10 @@ namespace libreria
         {
             InitializeComponent();
         }
-
+        Biblioteca biblioteca;
         private void btnAggiungiLibro_Click(object sender, RoutedEventArgs e)
         {
-            
+            biblioteca.aggiungiLibro(txtAutore,txtTitolo,txtAnnoPubblicazione,txtEditore, int.Parse(txtNPagine.Text));
         }
 
         private void btnAggiungiBiblioteca_Click(object sender, RoutedEventArgs e)

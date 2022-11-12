@@ -7,17 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Margin="565,41,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Margin="565,91,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtAnnoPubblicazione" HorizontalAlignment="Left" Margin="565,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtEditore" HorizontalAlignment="Left" Margin="565,190,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnAggiungiLibro" Content="Button" HorizontalAlignment="Left" Margin="565,296,0,0" VerticalAlignment="Top" Width="120" Click="btnAggiungiLibro_Click"/>
-        <TextBox x:Name="txtNPagine" HorizontalAlignment="Left" Margin="565,241,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Margin="314,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Margin="314,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAnnoPubblicazione" HorizontalAlignment="Left" Margin="314,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtEditore" HorizontalAlignment="Left" Margin="314,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnAggiungiLibro" Content="Aggiungi Libro" HorizontalAlignment="Left" Margin="314,291,0,0" VerticalAlignment="Top" Width="120" Click="btnAggiungiLibro_Click"/>
+        <TextBox x:Name="txtNPagine" HorizontalAlignment="Left" Margin="314,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtNomeBiblioteca" HorizontalAlignment="Left" Margin="107,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtIndirizzo" TextWrapping="Wrap" Width="120" Margin="107,91,573,325"/>
         <TextBox x:Name="txtOrarioApertura" HorizontalAlignment="Left" Margin="107,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtOrarioChiusura" HorizontalAlignment="Left" Margin="107,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnAggiungiBiblioteca" Content="Button" HorizontalAlignment="Left" Margin="107,291,0,0" VerticalAlignment="Top" Width="133" Click="btnAggiungiBiblioteca_Click"/>
+        <Button x:Name="btnAggiungiBiblioteca" Content="Aggiungi Biblioteca" HorizontalAlignment="Left" Margin="107,291,0,0" VerticalAlignment="Top" Width="133" Click="btnAggiungiBiblioteca_Click"/>
         <Label Content="Inserisci nome biblioteca" HorizontalAlignment="Left" Margin="107,10,0,0" VerticalAlignment="Top" Width="144"/>
         <Label Content="Inserisci indirizzo biblioteca" HorizontalAlignment="Left" Margin="107,59,0,0" VerticalAlignment="Top" Width="160"/>
         <Label Content="Inserisci orario di apertura" HorizontalAlignment="Left" Margin="107,111,0,0" VerticalAlignment="Top" Width="160"/>
