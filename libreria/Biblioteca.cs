@@ -39,5 +39,24 @@ namespace libreria
             }
             return "Libro non trovato";
         }
+
+        public string ricercaLibriAutore(string autore)
+        {
+            string libriAutore = "";
+            for (int i = 0; i < listaLibri.Count; i++)
+            {
+                if (listaLibri[i].getAutore() == autore)
+                {
+                    libriAutore = libriAutore +"\n"+ listaLibri[i].getTitolo();
+                }
+
+            }
+            return libriAutore;
+        }
+
+        public int getNLibri()
+        {
+            return listaLibri.Count;
+        }
     }
 }
